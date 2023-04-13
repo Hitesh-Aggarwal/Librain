@@ -1,60 +1,47 @@
-Title, Author, Genre, Publication Date, Publisher, User Ratings
-"The Great Gatsby", F. Scott Fitzgerald, Classic Literature, 2000, Penguin Classics, 4.5
-"Harry Potter and the Philosopher's Stone", J.K. Rowling, Fantasy, 2014, Bloomsbury, 4.8
-"The Hitchhiker's Guide to the Galaxy", Douglas Adams, Science Fiction, 1995, Del Rey Books, 4.3
-"The Da Vinci Code", Dan Brown, Thriller, 2009, Anchor, 4.1
-"Pride and Prejudice", Jane Austen, Classic Literature, 2003, Penguin Classics, 4.6
-"To Kill a Mockingbird", Harper Lee, Classic Literature, 1988, Grand Central Publishing, 4.5
-"1984", George Orwell, Science Fiction, 2009, Signet Classics, 4.4
-"The Lord of the Rings", J.R.R. Tolkien, Fantasy, 2012, Mariner Books, 4.7
-"The Catcher in the Rye", J.D. Salinger, Classic Literature, 2001, Back Bay Books, 4.0
-"To the Lighthouse", Virginia Woolf, Classic Literature, 1990, Harcourt, 4.2
-"The Shining", Stephen King, Horror, 2012, Anchor, 4.3
-"The Hunger Games", Suzanne Collins, Science Fiction, 2010, Scholastic Press, 4.5
-"The Alchemist", Paulo Coelho, Fiction, 1993, HarperOne, 4.7
-"Little Women", Louisa May Alcott, Classic Literature, 2012, Penguin Classics, 4.5
-"The Girl with the Dragon Tattoo", Stieg Larsson, Crime Fiction, 2009, Vintage Crime/Black Lizard, 4.2
-"Animal Farm", George Orwell, Classic Literature, 2003, Signet Classics, 4.5
-"The Diary of a Young Girl", Anne Frank, Autobiography, 2011, Bantam, 4.4
-"Frankenstein", Mary Shelley, Horror, 1994, Dover Publications, 4.1
-"Wuthering Heights", Emily Bronte, Classic Literature, 2002, Penguin Classics, 4.4
-"Great Expectations", Charles Dickens, Classic Literature, 2003, Penguin Classics, 4.2
-"The Girl on the Train", Paula Hawkins, Thriller, 2016, Riverhead Books, 4.0
-"The Adventures of Sherlock Holmes", Arthur Conan Doyle, Mystery, 2015, HarperCollins, 4.6
-"War and Peace", Leo Tolstoy, Classic Literature, 2007, Penguin Classics, 4.2
-"The Bell Jar", Sylvia Plath, Autobiographical Fiction, 2005, Harper Perennial Modern Classics, 4.1
-"Gone Girl", Gillian Flynn, Thriller, 2014, Broadway Books, 4.0
-"Les Miserables", Victor Hugo, Classic Literature, 2008, Penguin Classics, 4.6
-"The Outsiders", S.E. Hinton, Young Adult Fiction, 2012, Speak, 4.3
-"The Road", Cormac McCarthy, Post-Apocalyptic Fiction, 2006, Vintage, 4.4
-"Crime and Punishment", Fyodor Dostoyevsky, Classic Literature, 2002, Penguin Classics, 4.1
-"The Picture of Dorian Gray", Oscar Wilde, Classic Literature, 2014, Penguin Classics, 4.4
-"The Hobbit", J.R.R. Tolkien, Fantasy, 2013, Mariner Books, 4.8
-"Jane Eyre", Charlotte Bronte, Classic Literature, 2016, Penguin Classics, 4.6
-"The Brothers Karamazov", Fyodor Dostoyevsky, Classic Literature, 1991, Vintage Classics, 4.3
-"The Count of Monte Cristo", Alexandre Dumas, Historical Fiction, 2010, Penguin Classics, 4.5
-"Dracula", Bram Stoker, Horror, 2011, Penguin Classics, 4.2
-"The Grapes of Wrath", John Steinbeck, Historical Fiction, 2002, Penguin Classics, 4.1
-"Beloved", Toni Morrison, Historical Fiction, 2004, Vintage, 4.3
-"The Color Purple", Alice Walker, Historical Fiction, 2014, Mariner Books, 4.5
-"One Hundred Years of Solitude", Gabriel Garcia Marquez, Magical Realism, 2006, Harper Perennial, 4.4
-"The Handmaid's Tale", Margaret Atwood, Dystopian Fiction, 2017, Anchor, 4.3
-"The Kite Runner", Khaled Hosseini, Historical Fiction, 2004, Riverhead Books, 4.7
-"A Game of Thrones", George R.R. Martin, Fantasy, 2011, Bantam, 4.6
-"Brave New World", Aldous Huxley, Science Fiction, 2006, Harper Perennial Modern Classics, 4.2
-"Anna Karenina", Leo Tolstoy, Classic Literature, 2014, Vintage Classics, 4.4
-"The Sun Also Rises", Ernest Hemingway, Classic Literature, 2006, Scribner, 4.1
-"The Old Man and the Sea", Ernest Hemingway, Classic Literature, 1995, Scribner, 4.3
-"The Picture of Dorian Gray", Oscar Wilde, Classic Literature, 2014, Penguin Classics, 4.4
-"The Hobbit", J.R.R. Tolkien, Fantasy, 2013, Mariner Books, 4.8
-"Jane Eyre", Charlotte Bronte, Classic Literature, 2016, Penguin Classics, 4.6
-"The Brothers Karamazov", Fyodor Dostoyevsky, Classic Literature, 1991, Vintage Classics, 4.3
-"The Count of Monte Cristo", Alexandre Dumas, Historical Fiction, 2010, Penguin Classics, 4.5
-"Dracula", Bram Stoker, Horror, 2011, Penguin Classics, 4.2
-"The Grapes of Wrath", John Steinbeck, Historical Fiction, 2002, Penguin Classics, 4.1
-"Beloved", Toni Morrison, Historical Fiction, 2004, Vintage, 4.3
-"The Color Purple", Alice Walker, Historical Fiction, 2014, Mariner Books, 4.5
-"One Hundred Years of Solitude", Gabriel Garcia Marquez, Magical Realism, 2006, Harper Perennial, 4.4
-"The Handmaid's Tale", Margaret Atwood, Dystopian Fiction, 2017, Anchor, 4.3
-"The Kite Runner", Khaled Hosseini, Historical Fiction, 2004, Riverhead Books, 4.7
-"A Game of Thrones", George R.R. Martin, Fantasy, 2011, Bantam, 4
+Title, Author, Genre, Publication Date, Publisher, User Ratings,Summaries
+The Great Gatsby, F. Scott Fitzgerald, Classic Literature,2000, Penguin Classics,4.5,"A novel set in the Roaring Twenties, exploring themes of love, wealth, and the American Dream through the story of Jay Gatsby and his obsession with Daisy Buchanan."
+Harry Potter and the Philosopher's Stone, J.K. Rowling, Fantasy,2014, Bloomsbury,4.8,"The first book in the Harry Potter series, a fantasy story about a young orphan boy who discovers he is a wizard and attends a school of magic."
+The Hitchhiker's Guide to the Galaxy, Douglas Adams, Science Fiction,1995, Del Rey Books,4.3,A comedic science fiction novel following the adventures of an unwitting human and his alien friend as they travel through space and time.
+The Da Vinci Code, Dan Brown, Thriller,2009, Anchor,4.1,A thriller novel centered around a symbologist and a cryptologist who follow clues to unravel a conspiracy involving the Catholic Church and the Holy Grail.
+Pride and Prejudice, Jane Austen, Classic Literature,2003, Penguin Classics,4.6,"A classic novel of manners set in 19th-century England, exploring the relationships and social customs of the wealthy Bennet family."
+To Kill a Mockingbird, Harper Lee, Classic Literature,1988, Grand Central Publishing,4.5,"A classic novel set in the 1930s South, exploring themes of racism, prejudice, and social inequality through the eyes of a young girl named Scout Finch."
+1984, George Orwell, Science Fiction,2009, Signet Classics,4.4,A dystopian novel set in a totalitarian society where individualism is suppressed and the government controls every aspect of citizens' lives.
+The Lord of the Rings, J.R.R. Tolkien, Fantasy,2012, Mariner Books,4.7,A fantasy epic following hobbit Frodo Baggins and his companions as they journey to destroy the One Ring and defeat the evil Sauron.
+The Catcher in the Rye, J.D. Salinger, Classic Literature,2001, Back Bay Books,4,"A novel following the misadventures of Holden Caulfield, a teenage boy who is disillusioned with the adult world."
+To the Lighthouse, Virginia Woolf, Classic Literature,1990, Harcourt,4.2,"A novel exploring the inner lives of a family as they vacation on the Isle of Skye, Scotland."
+The Shining, Stephen King, Horror,2012, Anchor,4.3,A horror novel about a family who becomes trapped in a haunted hotel during the winter.
+The Hunger Games, Suzanne Collins, Science Fiction,2010, Scholastic Press,4.5,A dystopian novel set in a post-apocalyptic world where teenagers are forced to fight to the death in an annual televised event.
+The Alchemist, Paulo Coelho, Fiction,1993, HarperOne,4.7,A novel following a shepherd boy who embarks on a journey to find a treasure and discovers the importance of following one's dreams.
+Little Women, Louisa May Alcott, Classic Literature,2012, Penguin Classics,4.5,A classic novel following the lives of four sisters as they grow up and navigate the challenges of womanhood during the American Civil War.
+The Girl with the Dragon Tattoo, Stieg Larsson, Crime Fiction,2009, Vintage Crime/Black Lizard,4.2,A thriller novel following a journalist and a computer hacker as they investigate a decades-old disappearance and uncover a web of corruption and violence.
+Animal Farm, George Orwell, Classic Literature,2003, Signet Classics,4.5,"A political allegory in which a group of farm animals rebel against their human farmer and establish their own government, which becomes corrupt and oppressive."
+The Diary of a Young Girl, Anne Frank, Autobiography,2011, Bantam,4.4,A memoir in which a Jewish girl documents her experiences hiding with her family during the Nazi occupation of the Netherlands.
+Frankenstein, Mary Shelley, Horror,1994, Dover Publications,4.1,A Gothic novel about a scientist who creates a living being from human parts and is horrified by the monster he has made.
+Wuthering Heights, Emily Bronte, Classic Literature,2002, Penguin Classics,4.4,"A Gothic novel set in the moors of England, following the tumultuous relationship between Heathcliff and Catherine Earnshaw."
+Great Expectations, Charles Dickens, Classic Literature,2003, Penguin Classics,4.2,A coming-of-age novel following the life of an orphan boy named Pip and his journey to becoming a gentleman.
+The Girl on the Train, Paula Hawkins, Thriller,2016, Riverhead Books,4,A psychological thriller about a woman who becomes embroiled in a missing persons investigation after witnessing something from her train window.
+The Adventures of Sherlock Holmes, Arthur Conan Doyle, Mystery,2015, HarperCollins,4.6,A collection of short stories featuring the famous detective Sherlock Holmes and his partner Dr. Watson solving crimes in Victorian London.
+War and Peace, Leo Tolstoy, Classic Literature,2007, Penguin Classics,4.2,An epic novel by Leo Tolstoy that follows the lives of several aristocratic families during the Napoleonic Wars.
+The Bell Jar, Sylvia Plath, Autobiographical Fiction,2005, Harper Perennial Modern Classics,4.1,A semi-autobiographical novel by Sylvia Plath about a young woman's descent into mental illness.
+Gone Girl, Gillian Flynn, Thriller,2014, Broadway Books,4,A psychological thriller about a man whose wife disappears and he becomes the prime suspect in her disappearance.
+Les Miserables, Victor Hugo, Classic Literature,2008, Penguin Classics,4.6,"A novel by Victor Hugo that follows the lives of several characters in 19th century France, including an ex-convict and a police inspector."
+The Outsiders, S.E. Hinton, Young Adult Fiction,2012, Speak,4.3,A coming-of-age novel by S.E. Hinton about a group of working-class teenagers in Oklahoma.
+The Road, Cormac McCarthy, Post-Apocalyptic Fiction,2006, Vintage,4.4,A post-apocalyptic novel by Cormac McCarthy about a father and son's journey through a barren and dangerous landscape.
+Crime and Punishment, Fyodor Dostoyevsky, Classic Literature,2002, Penguin Classics,4.1,A novel by Fyodor Dostoevsky that follows a young man who commits a murder and struggles with guilt and redemption.
+The Picture of Dorian Gray, Oscar Wilde, Classic Literature,2014, Penguin Classics,4.4,A novel by Oscar Wilde about a man who remains young and beautiful while a portrait of him ages and shows the physical toll of his hedonistic lifestyle.
+The Hobbit, J.R.R. Tolkien, Fantasy,2013, Mariner Books,4.8,A fantasy novel by J.R.R. Tolkien about a hobbit who embarks on an adventure with dwarves to reclaim their treasure from a dragon.
+Jane Eyre, Charlotte Bronte, Classic Literature,2016, Penguin Classics,4.6,"A novel by Charlotte Bronte about a young woman who becomes a governess and falls in love with her employer, Mr. Rochester."
+The Brothers Karamazov, Fyodor Dostoyevsky, Classic Literature,1991, Vintage Classics,4.3,"A novel by Fyodor Dostoevsky about a dysfunctional family and the murder of the father, with themes of religion, philosophy, and morality."
+The Count of Monte Cristo, Alexandre Dumas, Historical Fiction,2010, Penguin Classics,4.5,A novel by Alexandre Dumas about a man who is wrongfully imprisoned and seeks revenge on those who betrayed him after he escapes and becomes wealthy.
+Dracula, Bram Stoker, Horror,2011, Penguin Classics,4.2,A Gothic horror novel by Bram Stoker about a vampire who terrorizes Victorian England.
+The Grapes of Wrath, John Steinbeck, Historical Fiction,2002, Penguin Classics,4.1,A novel by John Steinbeck about a family's journey from Oklahoma to California during the Great Depression.
+Beloved, Toni Morrison, Historical Fiction,2004, Vintage,4.3,A novel by Toni Morrison about a former slave who is haunted by the ghost of her baby daughter.
+The Color Purple, Alice Walker, Historical Fiction,2014, Mariner Books,4.5,A novel by Alice Walker about a young black woman in rural Georgia who overcomes abuse and oppression to find her own voice and independence.
+One Hundred Years of Solitude, Gabriel Garcia Marquez, Magical Realism,2006, Harper Perennial,4.4,A novel by Gabriel Garcia Marquez that tells the story of the Buendia family over several generations in the fictional town of Macondo.
+The Handmaid's Tale, Margaret Atwood, Dystopian Fiction,2017, Anchor,4.3,A dystopian novel by Margaret Atwood about a woman living in a future where the government has established a totalitarian regime based on a strict interpretation of the Bible.
+The Kite Runner, Khaled Hosseini, Historical Fiction,2004, Riverhead Books,4.7,"A novel by Khaled Hosseini about a boy growing up in Afghanistan and his friendship with the son of his father's servant, set against the backdrop of the Soviet invasion and later Taliban rule."
+A Game of Thrones, George R.R. Martin, Fantasy,2011, Bantam,4.6,"The first book in the ""A Song of Ice and Fire"" series by George R.R. Martin, a fantasy epic set in a medieval-like world with political intrigue, war, and supernatural elements."
+Brave New World, Aldous Huxley, Science Fiction,2006, Harper Perennial Modern Classics,4.2,A dystopian novel by Aldous Huxley about a future society where people are conditioned from birth to conform to a rigid social hierarchy and where pleasure and consumption are valued above all else.
+Anna Karenina, Leo Tolstoy, Classic Literature,2014, Vintage Classics,4.4,"a novel about the tragic love affair between Anna, a married aristocrat, and Count Vronsky, a wealthy military man. The novel explores themes of love, adultery, family, and society in 19th century Russia."
+The Sun Also Rises, Ernest Hemingway, Classic Literature,2006, Scribner,4.1,"a novel that follows a group of American and British expatriates as they travel from Paris to Pamplona, Spain, to watch the running of the bulls and participate in the bullfights. The novel explores themes of disillusionment, masculinity, and the Lost Generation."
+The Old Man and the Sea, Ernest Hemingway, Classic Literature,1995, Scribner,4.3,"a short novel about an aging fisherman named Santiago who sets out on a fishing expedition in the Gulf Stream and catches a giant marlin. The novel explores themes of determination, endurance, and the human struggle against nature."
