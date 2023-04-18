@@ -16,7 +16,7 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 
 # Define a function to recommend similar books based on a given book
-def recommend_books(book_title, cosine_sim=cosine_sim, books_df=books_df):
+def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
     try:
         # Get the index of the book that matches the title
         idx = books_df[books_df["Title"] == book_title].index[0]
@@ -28,7 +28,7 @@ def recommend_books(book_title, cosine_sim=cosine_sim, books_df=books_df):
         sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
         # Get the top 10 most similar books
-        sim_scores = sim_scores[1:11]
+        sim_scores = sim_scores[1 : n + 1]
 
         # Get the indices of the similar books
         book_indices = [i[0] for i in sim_scores]
@@ -41,9 +41,9 @@ def recommend_books(book_title, cosine_sim=cosine_sim, books_df=books_df):
 
 
 # Recommend books similar to any book required
-def predicted_books(book_name):
+def predicted_books(book_name, n):
     recom_books = []
-    recomm_books = recommend_books(book_name)
+    recomm_books = recommend_books(book_name, n)
     for i in recomm_books:
         recom_books = recom_books + [i]
     return recom_books
@@ -51,8 +51,15 @@ def predicted_books(book_name):
 
 def main():
     book_name = input("Enter Book Title: ")
-    ans = predicted_books(book_name)
-    print("You may also like:")
+
+    try:
+        idx = books_df[books_df["Title"] == book_name].index[0]
+    except IndexError:
+        print("Book not available in library.")
+        exit()
+
+    n = int(input("Enter number of suggestions: "))
+    ans = predicted_books(book_name, n)
     while ans:
         print(ans.pop())
 
