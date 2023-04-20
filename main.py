@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -19,11 +20,7 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
     try:
         # Get the index of the book that matches the title
-<<<<<<< HEAD
-        idx = books_df[books_df["Title"] == book_title.lower()].index[0]
-=======
         idx = books_df[books_df["title"] == book_title].index[0]
->>>>>>> 4c185db853c9b24af73acb7a9f32398d8950be39
 
         # Get the similarity scores between the book and all the others
         sim_scores = list(enumerate(cosine_sim[idx]))
@@ -54,7 +51,8 @@ def predicted_books(book_name, n):
 
 
 def main():
-    book_name = input("Enter Book Title: ").lower()
+    book_name = sys.argv[1]
+    n = int(sys.argv[2])
 
     try:
         idx = books_df[books_df["title"] == book_name].index[0]
@@ -62,7 +60,6 @@ def main():
         print("Book not available in library.")
         exit()
 
-    n = int(input("Enter number of suggestions: "))
     ans = predicted_books(book_name, n)
     while ans:
         print(ans.pop())
