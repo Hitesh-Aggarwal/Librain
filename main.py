@@ -8,7 +8,7 @@ books_df = pd.read_csv("data.csv")
 
 # Create a TF-IDF vectorizer to convert the summaries into a numerical representation
 tfidf = TfidfVectorizer(stop_words="english")
-books_df["summary"] = books_df["Summaries"].fillna("")
+books_df["summary"] = books_df["summaries"].fillna("")
 tfidf_matrix = tfidf.fit_transform(books_df["summary"])
 
 # Calculate the cosine similarity between each book
@@ -19,7 +19,7 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
     try:
         # Get the index of the book that matches the title
-        idx = books_df[books_df["Title"] == book_title].index[0]
+        idx = books_df[books_df["title"] == book_title].index[0]
 
         # Get the similarity scores between the book and all the others
         sim_scores = list(enumerate(cosine_sim[idx]))
@@ -34,7 +34,7 @@ def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
         book_indices = [i[0] for i in sim_scores]
 
         # Return the top 10 similar books
-        return books_df["Title"].iloc[book_indices]
+        return books_df["title"].iloc[book_indices]
     except IndexError as e:
         print("Error:", e)
         return []
@@ -50,10 +50,10 @@ def predicted_books(book_name, n):
 
 
 def main():
-    book_name = input("Enter Book Title: ")
+    book_name = input("Enter Book Title: ").lower()
 
     try:
-        idx = books_df[books_df["Title"] == book_name].index[0]
+        idx = books_df[books_df["title"] == book_name].index[0]
     except IndexError:
         print("Book not available in library.")
         exit()
