@@ -19,7 +19,7 @@ cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
 def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
     try:
         # Get the index of the book that matches the title
-        idx = books_df[books_df["Title"] == book_title].index[0]
+        idx = books_df[books_df["Title"] == book_title.lower()].index[0]
 
         # Get the similarity scores between the book and all the others
         sim_scores = list(enumerate(cosine_sim[idx]))
@@ -27,7 +27,7 @@ def recommend_books(book_title, n, cosine_sim=cosine_sim, books_df=books_df):
         # Sort the books based on the similarity scores
         sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
-        # Get the top 10 most similar books
+        # Get the top n most similar books
         sim_scores = sim_scores[1 : n + 1]
 
         # Get the indices of the similar books
